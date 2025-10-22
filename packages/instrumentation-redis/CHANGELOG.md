@@ -1,6 +1,35 @@
 <!-- markdownlint-disable MD007 MD034 -->
 # Changelog
 
+## [0.57.0](https://github.com/haruelrovix/opentelemetry-js-contrib/compare/instrumentation-redis-v0.56.0...instrumentation-redis-v0.57.0) (2025-10-22)
+
+
+### Features
+
+* **deps:** lock file maintenance ([#2596](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2596)) ([d4569c3](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/d4569c315161a6ad6ce1a3e428262fdcc5ed8e4d))
+* **deps:** update deps matching '@opentelemetry/*' ([#2930](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2930)) ([e4ab2a9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/e4ab2a932084016f9750bd09d3f9a469c44628ea))
+* **deps:** update deps matching '@opentelemetry/*' ([#3034](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3034)) ([bee0a66](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/bee0a66ef825145fb1a9b172c3468ccf0c97a820))
+* **deps:** update deps matching '@opentelemetry/*' ([#3145](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3145)) ([704c716](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/704c7161f782590d7b644ab607b5f9c29cdfd63f))
+* **deps:** update deps matching '@opentelemetry/*' ([#3187](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3187)) ([ab96334](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/ab9633455794de79964e60775c804791d19259bc))
+* **deps:** update otel deps ([#3027](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3027)) ([fd9e262](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/fd9e262fabf4e8fd8e246b8967892fa26442968a))
+* **redis:** add support for redis v5 ([#2950](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2950)) ([8b09de9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/8b09de916959cfc765b51aeab8b585b8c8e42a45))
+
+
+### Bug Fixes
+
+* force new release-please PR ([#3098](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3098)) ([13c58e9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/13c58e9ad77b266a03e34ffd4b61ab18c86f9d73))
+* force new release-please PR ([#3123](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3123)) ([0dab838](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/0dab8383b5349e21a968fe2cedd8a6e2243f86d0))
+* **instrumentation-redis:** properly implement getModuleDefinitions() in the merged-from-two RedisInstrumentation ([#3025](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3025)) ([976dcd2](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/976dcd23e810a162ef33d4e3f89451f8e96604be))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @opentelemetry/redis-common bumped from ^0.38.2 to ^0.39.0
+  * devDependencies
+    * @opentelemetry/contrib-test-utils bumped from ^0.54.0 to ^0.55.0
+
 ## [0.56.0](https://github.com/open-telemetry/opentelemetry-js-contrib/compare/instrumentation-redis-v0.55.0...instrumentation-redis-v0.56.0) (2025-10-21)
 
 
