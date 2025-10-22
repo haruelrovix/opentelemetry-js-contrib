@@ -1,6 +1,20 @@
 <!-- markdownlint-disable MD007 MD034 -->
 # Changelog
 
+## [2.1.0](https://github.com/haruelrovix/opentelemetry-js-contrib/compare/id-generator-aws-xray-v2.0.3...id-generator-aws-xray-v2.1.0) (2025-10-22)
+
+
+### Features
+
+* **deps:** lock file maintenance ([#2596](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2596)) ([d4569c3](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/d4569c315161a6ad6ce1a3e428262fdcc5ed8e4d))
+
+
+### Bug Fixes
+
+* **deps:** update all patch versions ([#2948](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2948)) ([5836d7a](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/5836d7ab3244adef62b715ef22a26b54dba6719b))
+* force new release-please PR ([#3098](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3098)) ([13c58e9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/13c58e9ad77b266a03e34ffd4b61ab18c86f9d73))
+* force new release-please PR ([#3123](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3123)) ([0dab838](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/0dab8383b5349e21a968fe2cedd8a6e2243f86d0))
+
 ## [2.0.3](https://github.com/open-telemetry/opentelemetry-js-contrib/compare/id-generator-aws-xray-v2.0.2...id-generator-aws-xray-v2.0.3) (2025-09-29)
 
 

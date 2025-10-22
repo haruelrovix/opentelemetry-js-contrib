@@ -1,6 +1,33 @@
 <!-- markdownlint-disable MD007 MD034 -->
 # Changelog
 
+## [0.57.0](https://github.com/haruelrovix/opentelemetry-js-contrib/compare/instrumentation-koa-v0.56.0...instrumentation-koa-v0.57.0) (2025-10-22)
+
+
+### Features
+
+* **deps:** lock file maintenance ([#2596](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2596)) ([d4569c3](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/d4569c315161a6ad6ce1a3e428262fdcc5ed8e4d))
+* **deps:** update deps matching '@opentelemetry/*' ([#2930](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2930)) ([e4ab2a9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/e4ab2a932084016f9750bd09d3f9a469c44628ea))
+* **deps:** update deps matching '@opentelemetry/*' ([#3034](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3034)) ([bee0a66](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/bee0a66ef825145fb1a9b172c3468ccf0c97a820))
+* **deps:** update deps matching '@opentelemetry/*' ([#3145](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3145)) ([704c716](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/704c7161f782590d7b644ab607b5f9c29cdfd63f))
+* **deps:** update deps matching '@opentelemetry/*' ([#3187](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3187)) ([ab96334](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/ab9633455794de79964e60775c804791d19259bc))
+* **deps:** update otel deps ([#3027](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3027)) ([fd9e262](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/fd9e262fabf4e8fd8e246b8967892fa26442968a))
+* **instrumentation-koa:** Add support for koa 3 ([#2957](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2957)) ([8d97f81](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/8d97f8140722023e696cc2de3fb0988992dcd9cb))
+
+
+### Bug Fixes
+
+* **deps:** update all patch versions ([#3134](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3134)) ([c302e35](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/c302e3530d6ee9a856ffb43730082e1cee87b0ee))
+* force new release-please PR ([#3098](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3098)) ([13c58e9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/13c58e9ad77b266a03e34ffd4b61ab18c86f9d73))
+* force new release-please PR ([#3123](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3123)) ([0dab838](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/0dab8383b5349e21a968fe2cedd8a6e2243f86d0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @opentelemetry/contrib-test-utils bumped from ^0.54.0 to ^0.55.0
+
 ## [0.56.0](https://github.com/open-telemetry/opentelemetry-js-contrib/compare/instrumentation-koa-v0.55.0...instrumentation-koa-v0.56.0) (2025-10-21)
 
 

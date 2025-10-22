@@ -1,6 +1,75 @@
 <!-- markdownlint-disable MD007 MD034 -->
 # Changelog
 
+## [0.67.0](https://github.com/haruelrovix/opentelemetry-js-contrib/compare/auto-instrumentations-node-v0.66.0...auto-instrumentations-node-v0.67.0) (2025-10-22)
+
+
+### Features
+
+* **auto-instrumentations-node:** add OpenAI instrumentation  ([#3164](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3164)) ([d2b090e](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/d2b090e7f28a29ade7309022d52c84672d8be430))
+* **deps:** lock file maintenance ([#2596](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2596)) ([d4569c3](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/d4569c315161a6ad6ce1a3e428262fdcc5ed8e4d))
+* **deps:** update deps matching '@opentelemetry/*' ([#2930](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/2930)) ([e4ab2a9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/e4ab2a932084016f9750bd09d3f9a469c44628ea))
+* **deps:** update deps matching '@opentelemetry/*' ([#3034](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3034)) ([bee0a66](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/bee0a66ef825145fb1a9b172c3468ccf0c97a820))
+* **deps:** update deps matching '@opentelemetry/*' ([#3145](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3145)) ([704c716](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/704c7161f782590d7b644ab607b5f9c29cdfd63f))
+* **deps:** update deps matching '@opentelemetry/*' ([#3187](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3187)) ([ab96334](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/ab9633455794de79964e60775c804791d19259bc))
+* **deps:** update otel deps ([#3027](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3027)) ([fd9e262](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/fd9e262fabf4e8fd8e246b8967892fa26442968a))
+
+
+### Bug Fixes
+
+* force new release-please PR ([#3098](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3098)) ([13c58e9](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/13c58e9ad77b266a03e34ffd4b61ab18c86f9d73))
+* force new release-please PR ([#3123](https://github.com/haruelrovix/opentelemetry-js-contrib/issues/3123)) ([0dab838](https://github.com/haruelrovix/opentelemetry-js-contrib/commit/0dab8383b5349e21a968fe2cedd8a6e2243f86d0))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @opentelemetry/instrumentation-amqplib bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-aws-lambda bumped from ^0.59.0 to ^0.60.0
+    * @opentelemetry/instrumentation-aws-sdk bumped from ^0.63.0 to ^0.64.0
+    * @opentelemetry/instrumentation-bunyan bumped from ^0.53.0 to ^0.54.0
+    * @opentelemetry/instrumentation-cassandra-driver bumped from ^0.53.0 to ^0.54.0
+    * @opentelemetry/instrumentation-connect bumped from ^0.51.0 to ^0.52.0
+    * @opentelemetry/instrumentation-cucumber bumped from ^0.23.0 to ^0.24.0
+    * @opentelemetry/instrumentation-dataloader bumped from ^0.25.0 to ^0.26.0
+    * @opentelemetry/instrumentation-dns bumped from ^0.51.0 to ^0.52.0
+    * @opentelemetry/instrumentation-express bumped from ^0.56.0 to ^0.57.0
+    * @opentelemetry/instrumentation-fastify bumped from ^0.52.0 to ^0.53.0
+    * @opentelemetry/instrumentation-fs bumped from ^0.27.0 to ^0.28.0
+    * @opentelemetry/instrumentation-generic-pool bumped from ^0.51.0 to ^0.52.0
+    * @opentelemetry/instrumentation-graphql bumped from ^0.55.0 to ^0.56.0
+    * @opentelemetry/instrumentation-hapi bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-ioredis bumped from ^0.55.0 to ^0.56.0
+    * @opentelemetry/instrumentation-kafkajs bumped from ^0.17.0 to ^0.18.0
+    * @opentelemetry/instrumentation-knex bumped from ^0.52.0 to ^0.53.0
+    * @opentelemetry/instrumentation-koa bumped from ^0.56.0 to ^0.57.0
+    * @opentelemetry/instrumentation-lru-memoizer bumped from ^0.52.0 to ^0.53.0
+    * @opentelemetry/instrumentation-memcached bumped from ^0.51.0 to ^0.52.0
+    * @opentelemetry/instrumentation-mongodb bumped from ^0.60.0 to ^0.61.0
+    * @opentelemetry/instrumentation-mongoose bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-mysql bumped from ^0.53.0 to ^0.54.0
+    * @opentelemetry/instrumentation-mysql2 bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-nestjs-core bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-net bumped from ^0.51.0 to ^0.52.0
+    * @opentelemetry/instrumentation-openai bumped from ^0.5.0 to ^0.6.0
+    * @opentelemetry/instrumentation-oracledb bumped from ^0.33.0 to ^0.34.0
+    * @opentelemetry/instrumentation-pg bumped from ^0.60.0 to ^0.61.0
+    * @opentelemetry/instrumentation-pino bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-redis bumped from ^0.56.0 to ^0.57.0
+    * @opentelemetry/instrumentation-restify bumped from ^0.53.0 to ^0.54.0
+    * @opentelemetry/instrumentation-router bumped from ^0.52.0 to ^0.53.0
+    * @opentelemetry/instrumentation-runtime-node bumped from ^0.21.0 to ^0.22.0
+    * @opentelemetry/instrumentation-socket.io bumped from ^0.54.0 to ^0.55.0
+    * @opentelemetry/instrumentation-tedious bumped from ^0.26.0 to ^0.27.0
+    * @opentelemetry/instrumentation-undici bumped from ^0.18.0 to ^0.19.0
+    * @opentelemetry/instrumentation-winston bumped from ^0.52.0 to ^0.53.0
+    * @opentelemetry/resource-detector-alibaba-cloud bumped from ^0.31.10 to ^0.32.0
+    * @opentelemetry/resource-detector-aws bumped from ^2.7.0 to ^2.8.0
+    * @opentelemetry/resource-detector-azure bumped from ^0.15.0 to ^0.16.0
+    * @opentelemetry/resource-detector-container bumped from ^0.7.10 to ^0.8.0
+    * @opentelemetry/resource-detector-gcp bumped from ^0.42.0 to ^0.43.0
+
 ## [0.66.0](https://github.com/open-telemetry/opentelemetry-js-contrib/compare/auto-instrumentations-node-v0.65.0...auto-instrumentations-node-v0.66.0) (2025-10-21)
 
 
